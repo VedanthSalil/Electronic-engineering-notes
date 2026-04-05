@@ -4,12 +4,9 @@ Hello! This is a comprehensive archive of my academic lecture notes and practica
 
 This repo will be frequently updated!
 
-![Static Badge](https://img.shields.io/badge/Updates-active-brightgreen?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/progress-2%25-orange?style=for-the-badge)
-
-![Lab](https://img.shields.io/badge/Lab_Work-Active-blueviolet?style=flat-square)
+![Static Badge](https://img.shields.io/badge/Updates-active-brightgreen?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/progress-5%25-orange?style=for-the-badge)
 
 ![Static Badge](https://img.shields.io/badge/ARDUINO-blue?style=for-the-badge&logo=arduino)
-
 
 
 
@@ -19,6 +16,7 @@ This repo will be frequently updated!
 
  1. [Embedded hardware systems with Arduino](#HardwareSystemsWithArduino)
  2. [Digital write & Pin setup ](#Digitalwrite&pinsetup)
+ 
 
 
 
@@ -51,16 +49,33 @@ void setup(){
 ```
 few ways you can set up your pin with different modes are as follows,
 ```cpp 
-pinMode(Pin_number,OUTPUT); //set the  pin to output mode
-pinMode(Pin_number,INPUT); //set the pin to input mode
+pinMode(Pin_number,OUTPUT); //set the  pin to output
+pinMode(Pin_number,INPUT); //set the pin to output
 pinMode(Pin_number,INPUT_PULLUP); //set the pin to act as a pull up resistor , more on it later
 ```
 > The pin number  need not be a numerical value , it could be a variable which is an integer , same can be done with 
 > ```cpp
-> int Led_pin = 10;
+> const int Led_pin = 10;
 > pinMode(Led_pin,OUTPUT);
 > //This can be done with the "digitalWrite() ;" function too
->  
-> ```
+>```
+ 
+
+Arduino along with many micro controllers use CMOS logic to operate (CMOS) is the standard technology used to fabricate integrated circuits (ICs), including processors, microcontrollers, and memory chips.
+
+>(CMOS) is the standard technology used to fabricate integrated circuits (ICs), including processors, microcontrollers, and memory chips. It is used in roughly 99% of modern IC chips, including CPUs (microprocessors).
+
+##### Acceptable CMOS level for High and low signals 
+##### high: 5V - 3.5V 
+##### low: 1.5V - 0V
+These band allows slight variations taking into consideration , different ground levels , floating voltage ,and general noise on input lines.
+
+-  A pin can be set as HIGH or LOW using the following
+ ```cpp
+ digitalWrite(Pin, HIGH); //sets pin to the 'on'state
+ digitalWrite(Pin,LOW); //sets pin to 'off' state 
+```
+
+
 
 
