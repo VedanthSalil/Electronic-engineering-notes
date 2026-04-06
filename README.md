@@ -4,7 +4,7 @@ Hello! This is a comprehensive archive of my academic lecture notes and practica
 
 This repo will be frequently updated!
 
-![Static Badge](https://img.shields.io/badge/Updates-active-brightgreen?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/progress-5%25-orange?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Updates-paused-orange?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/progress-5%25-orange?style=for-the-badge)
 
 ![Static Badge](https://img.shields.io/badge/ARDUINO-blue?style=for-the-badge&logo=arduino)
 
