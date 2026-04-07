@@ -24,7 +24,7 @@ This repo will be frequently updated!
 @@ PENDING WORKS @@
 
 # complete switch case explanation
-# fix error's
+
 
 
 ```
@@ -98,6 +98,7 @@ These band allows slight variations taking into consideration , different ground
 ```
 
 <div id='serialmonitor&'/> 
+ 
 # Serial Monitor  & input
 >The **Serial Monitor** is a built-in tool in the [Arduino IDE](https://www.arduino.cc/en/software) that acts as a virtual terminal, allowing you to send and receive text-based data between your computer and an [Arduino board](https://www.arduino.cc/en/hardware)
 
