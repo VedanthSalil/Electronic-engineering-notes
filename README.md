@@ -184,6 +184,7 @@ void loop()
 
 ```
  <div id='ARAW'/>
+  
 # Analog read and analog write
 
 - Arduino can read values from 0 to 1023 , this is because Arduino can reads in 10 bits , well at least in the terms of analog 
