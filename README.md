@@ -24,6 +24,7 @@ This repo will be frequently updated!
 @@ PENDING WORKS @@
 
 # complete switch case explanation
+# fix error's
 
 
 ```
